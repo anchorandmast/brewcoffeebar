@@ -1,7 +1,7 @@
-
-@media (min-width: 992px) {
-#mainNav .navbar-brand {
-    background-image:url(assets/brew-logo-white.svg)
-}
-
+header.masthead {
+    background-image: url(../img/hero-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
 }
