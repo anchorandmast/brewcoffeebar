@@ -5,3 +5,20 @@ header.masthead {
     background-position: center center;
     background-size: cover;
 }
+
+header.masthead .intro-text .intro-heading {
+    font-family: Montserrat;
+    font-weight: 400;
+    text-align: left;
+}
+
+.intro-text {
+    text-align: left;
+    font-family: Montserrat;
+}
+
+.btn-primary {
+    background-color: white;
+    border-color: white;
+    color: black;
+}
