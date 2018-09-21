@@ -1,0 +1,7 @@
+
+@media (min-width: 992px) {
+#mainNav .navbar-brand {
+    background-image:url(assets/brew-logo-white.svg)
+}
+
+}
