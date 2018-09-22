@@ -1,3 +1,9 @@
+p {
+    font-size:14px;
+}
+
+
+
 .hero_content {
 	padding: 24% 0;
 	text-align: left;
@@ -145,6 +151,14 @@
 	color:white;
 	font-weight: normal;
 	border-radius:0;
+}
+
+.cpright {
+    text-align:left;
+}
+
+.footer_part {
+    width:30%;
 }
 
 @media (max-width: 992px) {
