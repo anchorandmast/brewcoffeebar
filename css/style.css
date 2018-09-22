@@ -1,7 +1,120 @@
+.hero_content {
+	padding: 24% 0;
+	text-align: left;
+}
 
-@media (min-width: 992px) {
+.banner-para {
+	width:50%;
+}
+
+.btn-primary {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: black;
+    font-size: 18px;
+    padding: 10px 40px;    
+}
+
+#services {
+	background:#e8e8e8;
+}
+
+.location_title {
+	padding-bottom:4%;
+}
+
+.raleigh {
+    width:100%;
+    height:300px;
+    background-image: url('../assets/2. Locations/raleigh-location-image.png');	
+    background-size: cover;
+    float:left;
+}
+
+.cary {
+    width:100%;
+    height:300px;
+    background-image: url('../assets/2. Locations/cary-location-image.png');	
+    background-size: cover;
+    float:left;
+}
+
+.soon {
+    width:100%;
+    height:300px;
+    background-image: url('../assets/2. Locations/coming-soon-location-image.png');	
+    background-size: cover;
+    float:left;
+}
+
+.location_content {
+	display:block;
+	height:100%;
+}
+
+.location_content div.loc {
+    float: left;
+    height: 300px;
+    width: 100%;
+    background: white;
+    padding: 3%;	
+}
+
+.location_content .raleigh,
+.location_content .cary,
+.location_content .soon {
+	/*margin-bottom:4%;*/
+}
+
+.location_content p {
+	font-size:14px;
+}
+
+.location_content p b {
+	color:black;
+}
+
+.location_content button.blk_btn {
+	width:50%;
+	background: black;
+	color:white;
+	border:3px solid black;
+}
+
+.location_content button.dir_btn {
+	width:48.5%;
+	background: white;
+	color:black;
+	border:3px solid black;
+}
+
+.btn_placement {
+    position: absolute;
+    width: 87%;
+    bottom: 12px;
+}
+
+.timeline-image {
+	width:300px;
+}
+
+
+@media (max-width: 992px) {
 #mainNav .navbar-brand {
     background-image:url(assets/brew-logo-white.svg)
+}
+
+.btn_placement {
+	position:relative;
+	width:100%;
+}
+
+.location_content {
+	padding-bottom:15%;
+}
+
+.location_content div.loc {
+	height:100%;
 }
 
 }
