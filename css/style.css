@@ -1,3 +1,4 @@
+
 p {
     font-size:12px;
 }
@@ -179,4 +180,28 @@ p {
 	height:100%;
 }
 
+
+header.masthead {
+    background-image: url(../img/hero-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+header.masthead .intro-text .intro-heading {
+    font-family: Montserrat;
+    font-weight: 400;
+    text-align: left;
+}
+
+.intro-text {
+    text-align: left;
+    font-family: Montserrat;
+}
+
+.btn-primary {
+    background-color: white;
+    border-color: white;
+    color: black;
 }
