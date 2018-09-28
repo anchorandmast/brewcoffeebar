@@ -1,0 +1,720 @@
+.hero {
+  position: static;
+  display: block;
+  width: 100px;
+  height: auto;
+  background-image: url('../images/DarkPaper.png');
+  background-position: 0px 0px;
+  background-size: 720px;
+  background-attachment: fixed;
+}
+
+.section {
+  width: 100%;
+  height: 50%;
+  background-image: url('../images/DarkPaper.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.section-2 {
+  background-image: url('../images/DarkPaper.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.section-3 {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+}
+
+.div-block {
+  position: static;
+  background-image: url('../images/DarkPaper.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.image {
+  position: static;
+  float: right;
+}
+
+.image-2 {
+  position: relative;
+  right: -430px;
+  bottom: -381px;
+  float: right;
+}
+
+.image-3 {
+  position: relative;
+  right: -674px;
+  bottom: -126px;
+  float: right;
+}
+
+.brand {
+  width: 140px;
+  height: 200px;
+  background-image: url('../images/logo_white.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nav {
+  position: relative;
+  width: 100%;
+  height: 0%;
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-4 {
+  margin-top: 24px;
+  margin-left: 0px;
+}
+
+.image-5 {
+  display: inline;
+  margin-top: 0px;
+  margin-right: 16px;
+  float: right;
+}
+
+.hero-section {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/DarkPaper.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.heading {
+  color: #fff;
+}
+
+.paragraph {
+  color: #fff;
+  font-size: 16px;
+}
+
+.button {
+  background-color: #fff;
+  color: #000;
+}
+
+.heading-2 {
+  margin-top: 104px;
+  margin-bottom: 104px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.location-title {
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+
+.p-text {
+  margin: 16px 0px 0px;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}
+
+.locations-section {
+  position: relative;
+  z-index: 100;
+  background-color: #f9f9f9;
+}
+
+.location-block {
+  margin-bottom: 104px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  background-color: transparent;
+}
+
+.image-6 {
+  display: block;
+  margin-bottom: 0px;
+}
+
+.bold-text {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+}
+
+.location-wrapper {
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: #fff;
+}
+
+.location-info {
+  margin-bottom: 0px;
+  padding: 16px;
+}
+
+.location-actions {
+  margin-top: 32px;
+}
+
+.button-menu {
+  width: 45%;
+  margin-right: 10px;
+  float: left;
+  border: 2px solid #000;
+  background-color: #000;
+  text-align: center;
+}
+
+.button-directions {
+  width: 45%;
+  margin-left: 10px;
+  float: right;
+  border: 2px solid #000;
+  background-color: transparent;
+  color: #000;
+  text-align: center;
+}
+
+.bold-text-2 {
+  font-family: Montserrat, sans-serif;
+}
+
+.bold-text-3 {
+  font-family: Montserrat, sans-serif;
+}
+
+.button-label {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+}
+
+.section-title {
+  margin-top: 104px;
+  margin-bottom: 64px;
+  font-family: Montserrat, sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.h1 {
+  margin-top: 64px;
+  margin-bottom: 40px;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 52px;
+  font-weight: 300;
+}
+
+.hero-copy {
+  margin-bottom: 40px;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 300;
+}
+
+.button-primary.button-hero {
+  width: 150px;
+  height: 38px;
+  background-color: #fff;
+  font-family: Montserrat, sans-serif;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.container {
+  margin-bottom: 104px;
+}
+
+.text-block {
+  display: inline;
+  margin-top: 0px;
+  float: right;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.hamburger {
+  margin-top: 48px;
+  margin-bottom: 0px;
+  float: right;
+}
+
+.hamburger-icon {
+  position: relative;
+  display: inline;
+  float: none;
+  clear: both;
+}
+
+.hamburger-label {
+  position: relative;
+  bottom: -3px;
+  display: inline-block;
+  margin-top: 0px;
+  margin-left: 16px;
+  padding-top: 0px;
+  float: none;
+  clear: none;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.aboutus-section {
+  position: relative;
+  z-index: 100;
+  overflow: visible;
+  clear: both;
+  background-color: #fff;
+  background-image: url('../images/about-us-plant-illustration.svg');
+  background-position: 60% 105%;
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.image-7 {
+  width: 400px;
+}
+
+.callout-wrapper {
+  position: relative;
+  left: -200px;
+  top: 24px;
+  margin-left: 0px;
+  padding: 24px;
+  background-color: #fff;
+  box-shadow: 0 16px 64px 8px rgba(0, 0, 0, .05);
+}
+
+.callout {
+  margin: 0px;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 0.5px;
+}
+
+.paragraph-2 {
+  margin-top: 104px;
+}
+
+.callout-paragraph {
+  margin-top: 104px;
+}
+
+.aboutus-coffee-plant {
+  position: static;
+  z-index: 0;
+  display: block;
+  width: 75%;
+  max-height: 600px;
+  float: right;
+  clear: both;
+}
+
+.aboutus-coffee-plant-wrapper {
+  position: relative;
+  top: -500px;
+  z-index: 0;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  float: none;
+}
+
+.container-2 {
+  position: static;
+  overflow: visible;
+  margin-bottom: 0px;
+  clear: none;
+}
+
+.columns {
+  margin-bottom: 104px;
+}
+
+.apply-cta {
+  width: 45%;
+  margin-top: 32px;
+  margin-right: 10px;
+  float: left;
+  border: 2px solid #000;
+  background-color: #000;
+  text-align: center;
+}
+
+.container-3 {
+  background-image: url('../images/white-cup-img.png');
+  background-position: 100% 100%;
+  background-size: 675px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.section-4 {
+  background-image: url('../images/white-cup-img.png');
+  background-position: 100% 100%;
+  background-size: 675px;
+  background-repeat: no-repeat;
+}
+
+.careers-section {
+  position: relative;
+  z-index: 100;
+  height: 500px;
+  background-color: #fff;
+  background-image: url('../images/white-cup-img.png');
+  background-position: 90% 0px;
+  background-size: 675px;
+  background-repeat: no-repeat;
+}
+
+.image-8 {
+  display: block;
+  width: 1000px;
+}
+
+.column-2 {
+  position: static;
+  right: 0px;
+  bottom: 0px;
+}
+
+.footer-section {
+  position: relative;
+  z-index: 100;
+  margin-bottom: 104px;
+  background-color: #fff;
+}
+
+.footer-p-text {
+  margin: 0px;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}
+
+.container-4 {
+  position: static;
+  overflow: visible;
+  background-image: url('../images/white-cup-img.png');
+  background-position: 100% 0px;
+  background-size: 675px;
+  background-repeat: no-repeat;
+}
+
+.brew-logo {
+  margin-bottom: 16px;
+}
+
+.branding-column {
+  margin-bottom: 32px;
+}
+
+.image-9 {
+  position: relative;
+  display: inline-block;
+  float: right;
+  clear: both;
+}
+
+.image-10 {
+  position: fixed;
+  top: 186px;
+  right: 183px;
+  display: inline-block;
+  float: none;
+  clear: both;
+}
+
+.image-11 {
+  position: fixed;
+  top: 360px;
+  right: -1px;
+  display: inline-block;
+  overflow: visible;
+  float: right;
+  clear: both;
+}
+
+.hero-imgs {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow: hidden;
+  height: 500px;
+}
+
+.container-5 {
+  background-color: transparent;
+}
+
+.container-6 {
+  display: block;
+  margin-top: 32px;
+  color: #fff;
+}
+
+.navbar-2 {
+  background-color: transparent;
+}
+
+.nav-link {
+  display: inline-block;
+  margin: auto;
+  padding: 100px 24px 100px auto;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.brand-2 {
+  width: 140px;
+  height: 93px;
+  background-image: url('../images/logo_white.png');
+  background-position: 0px 0px;
+  background-size: 140px 93px;
+  background-repeat: no-repeat;
+}
+
+.nav-menu {
+  display: block;
+  background-color: #333;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.menu-button {
+  font-family: Montserrat, sans-serif;
+}
+
+.menu-button.w--open {
+  background-color: #333;
+}
+
+.image-12 {
+  position: absolute;
+  margin-top: 2%;
+}
+
+.image-13 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin-top: 2%;
+}
+
+@media (max-width: 991px) {
+  .p-text {
+    margin-top: 0px;
+  }
+  .p-text.mt-16 {
+    margin-top: 16px;
+  }
+  .button-menu {
+    width: 100%;
+  }
+  .button-directions {
+    width: 100%;
+    margin-top: 8px;
+    margin-left: 0px;
+  }
+  .button-label {
+    display: inline;
+    width: 100%;
+  }
+  .callout-wrapper {
+    left: 0px;
+  }
+  .careers-section {
+    background-position: 400% 0px;
+  }
+  .image-10 {
+    top: 297px;
+    right: -107px;
+  }
+  .image-11 {
+    display: none;
+  }
+  .nav-link {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .button-primary.button-hero {
+    width: 100%;
+  }
+  .container {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .image-7 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    clear: none;
+  }
+  .apply-cta {
+    width: 100%;
+  }
+  .careers-section {
+    background-position: -287% -184px;
+  }
+  .column-3 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .column-4 {
+    display: none;
+  }
+  .column-5 {
+    display: none;
+  }
+  .column-6 {
+    margin-bottom: 32px;
+  }
+  .bm-32 {
+    margin-bottom: 32px;
+  }
+  .image-9 {
+    display: none;
+  }
+  .image-10 {
+    top: 84px;
+    right: -348px;
+  }
+  .nav-link {
+    display: block;
+  }
+  .brand-2 {
+    margin-left: 16px;
+  }
+  .image-12 {
+    display: none;
+  }
+}
+
+@media (max-width: 479px) {
+  .nav {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .image-4 {
+    display: block;
+    margin-top: 0px;
+    margin-left: 0px;
+    float: left;
+  }
+  .image-5 {
+    width: 30px;
+    height: 44px;
+    margin-top: 24px;
+    margin-right: 24px;
+    float: right;
+  }
+  .h1 {
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .button-primary.button-hero {
+    width: 100%;
+  }
+  .container {
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .hamburger {
+    margin-top: 24px;
+  }
+  .hamburger-icon {
+    padding-right: 0px;
+  }
+  .hamburger-label {
+    display: none;
+  }
+  .footer-p-text {
+    margin-top: 16px;
+  }
+  .column-3 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .column-4 {
+    display: none;
+  }
+  .column-7 {
+    display: none;
+  }
+  .image-10 {
+    top: 124px;
+    right: -206px;
+  }
+  .nav-link {
+    margin: 64px auto;
+    padding: 0px;
+    font-size: 32px;
+  }
+  .brand-2 {
+    margin-left: 16px;
+    padding-left: 0px;
+  }
+  .nav-menu {
+    z-index: 200;
+    display: block;
+    margin: auto;
+    padding-top: 0px;
+  }
+}
+
