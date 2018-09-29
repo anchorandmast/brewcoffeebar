@@ -192,7 +192,7 @@
   height: 500px;
   background-color: #fff;
   background-image: url('../images/white-cup-img.png');
-  background-position: 90% 0px;
+  background-position: 120% 0px;
   background-size: 675px;
   background-repeat: no-repeat;
 }
@@ -221,19 +221,6 @@
 
 .brew-logo {
   margin-bottom: 16px;
-}
-
-.branding-column {
-  margin-bottom: 32px;
-}
-
-.hero-imgs {
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  overflow: hidden;
-  height: 500px;
 }
 
 .container-6 {
@@ -298,7 +285,7 @@
 
 .image-12 {
   position: absolute;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 .image-13 {
@@ -306,37 +293,54 @@
   top: 0px;
   right: 0px;
   bottom: 0px;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
-.image-14 {
+.hero-images {
   position: absolute;
   top: 0px;
   right: 0px;
-  bottom: 0px;
-  z-index: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  clear: both;
 }
 
-.image-15 {
+.image-17 {
   position: absolute;
-  top: 361px;
+  top: 0px;
   right: 0px;
   bottom: 0px;
   z-index: 1;
 }
 
-.image-16 {
+.image-18 {
   position: absolute;
-  top: 239px;
-  right: 110px;
+  top: 234px;
+  right: 72px;
   bottom: 0px;
   z-index: 2;
 }
 
-.hero-images {
-  overflow: hidden;
-  width: 50%;
-  height: 100%;
+.image-19 {
+  position: absolute;
+  top: 359px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.footer-columns {
+  float: right;
+}
+
+.branding-block {
+  float: left;
+}
+
+.footer-copyright {
+  position: static;
+  float: left;
+  clear: both;
 }
 
 @media (max-width: 991px) {
@@ -364,8 +368,19 @@
   .careers-section {
     background-position: 400% 0px;
   }
-  .column-7 {
-    display: none;
+  .footer-section {
+    padding-bottom: 32px;
+  }
+  .footer-title {
+    margin-top: 16px;
+  }
+  .footer-p-text {
+    margin-top: 24px;
+    padding: 24px;
+    text-align: center;
+  }
+  .brew-logo {
+    padding-top: 16px;
   }
   .nav-link {
     display: block;
@@ -373,13 +388,24 @@
   .nav-menu {
     background-color: #333;
   }
-  .image-15 {
-    display: none;
-    overflow: visible;
+  .image-12 {
+    margin-top: 25%;
   }
-  .image-16 {
-    top: 255px;
-    right: -94px;
+  .image-13 {
+    margin-top: 25%;
+  }
+  .image-18 {
+    top: 321px;
+    right: -200px;
+  }
+  .image-19 {
+    display: none;
+  }
+  .footer-columns {
+    float: right;
+  }
+  .footer-copyright {
+    width: 100%;
   }
 }
 
@@ -402,7 +428,7 @@
     width: 100%;
   }
   .careers-section {
-    background-position: -287% -184px;
+    background-position: -997% -184px;
   }
   .column-3 {
     padding-right: 0px;
@@ -411,11 +437,12 @@
   .column-4 {
     display: none;
   }
-  .column-5 {
-    display: none;
-  }
-  .bm-32 {
-    margin-bottom: 32px;
+  .brew-logo {
+    margin-bottom: 0px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
   .nav-link {
     display: block;
@@ -426,16 +453,26 @@
   .image-12 {
     display: none;
   }
-  .image-14 {
+  .image-17 {
     display: none;
   }
-  .image-16 {
-    top: -132px;
-    right: -361px;
+  .image-18 {
+    top: 4px;
+    right: -363px;
+  }
+  .branding-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
   }
 }
 
 @media (max-width: 479px) {
+  .hero-section {
+    overflow: hidden;
+  }
   .h1 {
     padding-right: 0px;
     padding-left: 0px;
@@ -451,7 +488,12 @@
     padding-left: 16px;
   }
   .footer-p-text {
-    margin-top: 16px;
+    margin-top: 0px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
   }
   .column-3 {
     padding-right: 0px;
@@ -460,8 +502,14 @@
   .column-4 {
     display: none;
   }
-  .column-7 {
-    display: none;
+  .brew-logo {
+    margin-top: 16px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
   }
   .nav-link {
     margin: 64px auto;
@@ -482,8 +530,38 @@
   .image-13 {
     display: none;
   }
-  .image-16 {
-    top: 65px;
-    right: -183px;
+  .hero-images {
+    position: static;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    clear: none;
+  }
+  .image-18 {
+    position: fixed;
+    top: 136px;
+    right: -212px;
+  }
+  .footer-columns {
+    background-color: #fff;
+  }
+  .branding-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 }
+
