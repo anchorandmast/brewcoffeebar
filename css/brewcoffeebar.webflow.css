@@ -1,89 +1,3 @@
-.hero {
-  position: static;
-  display: block;
-  width: 100px;
-  height: auto;
-  background-image: url('../images/DarkPaper.png');
-  background-position: 0px 0px;
-  background-size: 720px;
-  background-attachment: fixed;
-}
-
-.section {
-  width: 100%;
-  height: 50%;
-  background-image: url('../images/DarkPaper.png');
-  background-position: 0px 0px;
-  background-size: cover;
-}
-
-.section-2 {
-  background-image: url('../images/DarkPaper.png');
-  background-position: 0px 0px;
-  background-size: cover;
-}
-
-.section-3 {
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
-}
-
-.div-block {
-  position: static;
-  background-image: url('../images/DarkPaper.png');
-  background-position: 0px 0px;
-  background-size: cover;
-}
-
-.image {
-  position: static;
-  float: right;
-}
-
-.image-2 {
-  position: relative;
-  right: -430px;
-  bottom: -381px;
-  float: right;
-}
-
-.image-3 {
-  position: relative;
-  right: -674px;
-  bottom: -126px;
-  float: right;
-}
-
-.brand {
-  width: 140px;
-  height: 200px;
-  background-image: url('../images/logo_white.png');
-  background-position: 0px 0px;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.nav {
-  position: relative;
-  width: 100%;
-  height: 0%;
-  max-width: 960px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.image-4 {
-  margin-top: 24px;
-  margin-left: 0px;
-}
-
-.image-5 {
-  display: inline;
-  margin-top: 0px;
-  margin-right: 16px;
-  float: right;
-}
-
 .hero-section {
   width: 100%;
   height: 100%;
@@ -92,27 +6,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-.heading {
-  color: #fff;
-}
-
-.paragraph {
-  color: #fff;
-  font-size: 16px;
-}
-
-.button {
-  background-color: #fff;
-  color: #000;
-}
-
-.heading-2 {
-  margin-top: 104px;
-  margin-bottom: 104px;
-  text-align: center;
-  text-transform: uppercase;
 }
 
 .location-title {
@@ -128,6 +21,10 @@
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.2px;
+}
+
+.p-text.mt-16 {
+  line-height: 24px;
 }
 
 .locations-section {
@@ -147,13 +44,6 @@
 .image-6 {
   display: block;
   margin-bottom: 0px;
-}
-
-.bold-text {
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
-  padding-top: 0px;
 }
 
 .location-wrapper {
@@ -178,6 +68,7 @@
   border: 2px solid #000;
   background-color: #000;
   text-align: center;
+  cursor: pointer;
 }
 
 .button-directions {
@@ -188,14 +79,7 @@
   background-color: transparent;
   color: #000;
   text-align: center;
-}
-
-.bold-text-2 {
-  font-family: Montserrat, sans-serif;
-}
-
-.bold-text-3 {
-  font-family: Montserrat, sans-serif;
+  cursor: pointer;
 }
 
 .button-label {
@@ -247,48 +131,6 @@
   margin-bottom: 104px;
 }
 
-.text-block {
-  display: inline;
-  margin-top: 0px;
-  float: right;
-  font-family: Montserrat, sans-serif;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 600;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-.hamburger {
-  margin-top: 48px;
-  margin-bottom: 0px;
-  float: right;
-}
-
-.hamburger-icon {
-  position: relative;
-  display: inline;
-  float: none;
-  clear: both;
-}
-
-.hamburger-label {
-  position: relative;
-  bottom: -3px;
-  display: inline-block;
-  margin-top: 0px;
-  margin-left: 16px;
-  padding-top: 0px;
-  float: none;
-  clear: none;
-  font-family: Montserrat, sans-serif;
-  color: #fff;
-  font-size: 19px;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
 .aboutus-section {
   position: relative;
   z-index: 100;
@@ -325,39 +167,8 @@
   letter-spacing: 0.5px;
 }
 
-.paragraph-2 {
-  margin-top: 104px;
-}
-
 .callout-paragraph {
   margin-top: 104px;
-}
-
-.aboutus-coffee-plant {
-  position: static;
-  z-index: 0;
-  display: block;
-  width: 75%;
-  max-height: 600px;
-  float: right;
-  clear: both;
-}
-
-.aboutus-coffee-plant-wrapper {
-  position: relative;
-  top: -500px;
-  z-index: 0;
-  display: block;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  float: none;
-}
-
-.container-2 {
-  position: static;
-  overflow: visible;
-  margin-bottom: 0px;
-  clear: none;
 }
 
 .columns {
@@ -372,21 +183,7 @@
   border: 2px solid #000;
   background-color: #000;
   text-align: center;
-}
-
-.container-3 {
-  background-image: url('../images/white-cup-img.png');
-  background-position: 100% 100%;
-  background-size: 675px;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-}
-
-.section-4 {
-  background-image: url('../images/white-cup-img.png');
-  background-position: 100% 100%;
-  background-size: 675px;
-  background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .careers-section {
@@ -400,11 +197,6 @@
   background-repeat: no-repeat;
 }
 
-.image-8 {
-  display: block;
-  width: 1000px;
-}
-
 .column-2 {
   position: static;
   right: 0px;
@@ -414,7 +206,8 @@
 .footer-section {
   position: relative;
   z-index: 100;
-  margin-bottom: 104px;
+  margin-bottom: 0px;
+  padding-bottom: 104px;
   background-color: #fff;
 }
 
@@ -426,47 +219,12 @@
   letter-spacing: 0.2px;
 }
 
-.container-4 {
-  position: static;
-  overflow: visible;
-  background-image: url('../images/white-cup-img.png');
-  background-position: 100% 0px;
-  background-size: 675px;
-  background-repeat: no-repeat;
-}
-
 .brew-logo {
   margin-bottom: 16px;
 }
 
 .branding-column {
   margin-bottom: 32px;
-}
-
-.image-9 {
-  position: relative;
-  display: inline-block;
-  float: right;
-  clear: both;
-}
-
-.image-10 {
-  position: fixed;
-  top: 186px;
-  right: 183px;
-  display: inline-block;
-  float: none;
-  clear: both;
-}
-
-.image-11 {
-  position: fixed;
-  top: 360px;
-  right: -1px;
-  display: inline-block;
-  overflow: visible;
-  float: right;
-  clear: both;
 }
 
 .hero-imgs {
@@ -476,10 +234,6 @@
   bottom: 0px;
   overflow: hidden;
   height: 500px;
-}
-
-.container-5 {
-  background-color: transparent;
 }
 
 .container-6 {
@@ -493,17 +247,26 @@
 }
 
 .nav-link {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
   display: inline-block;
   margin: auto;
-  padding: 100px 24px 100px auto;
+  padding: auto;
   font-family: Montserrat, sans-serif;
   color: #fff;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 32px;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.nav-link.w--current {
+  color: #fff;
 }
 
 .brand-2 {
@@ -516,11 +279,13 @@
 }
 
 .nav-menu {
+  left: 0px;
+  top: 0px;
+  right: 0px;
   display: block;
-  background-color: #333;
   font-family: Montserrat, sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 300;
 }
 
 .menu-button {
@@ -542,6 +307,36 @@
   right: 0px;
   bottom: 0px;
   margin-top: 2%;
+}
+
+.image-14 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 0;
+}
+
+.image-15 {
+  position: absolute;
+  top: 361px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+}
+
+.image-16 {
+  position: absolute;
+  top: 239px;
+  right: 110px;
+  bottom: 0px;
+  z-index: 2;
+}
+
+.hero-images {
+  overflow: hidden;
+  width: 50%;
+  height: 100%;
 }
 
 @media (max-width: 991px) {
@@ -569,25 +364,26 @@
   .careers-section {
     background-position: 400% 0px;
   }
-  .image-10 {
-    top: 297px;
-    right: -107px;
-  }
-  .image-11 {
+  .column-7 {
     display: none;
   }
   .nav-link {
     display: block;
   }
+  .nav-menu {
+    background-color: #333;
+  }
+  .image-15 {
+    display: none;
+    overflow: visible;
+  }
+  .image-16 {
+    top: 255px;
+    right: -94px;
+  }
 }
 
 @media (max-width: 767px) {
-  .nav {
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 24px;
-    padding-left: 24px;
-  }
   .button-primary.button-hero {
     width: 100%;
   }
@@ -618,18 +414,8 @@
   .column-5 {
     display: none;
   }
-  .column-6 {
-    margin-bottom: 32px;
-  }
   .bm-32 {
     margin-bottom: 32px;
-  }
-  .image-9 {
-    display: none;
-  }
-  .image-10 {
-    top: 84px;
-    right: -348px;
   }
   .nav-link {
     display: block;
@@ -640,27 +426,16 @@
   .image-12 {
     display: none;
   }
+  .image-14 {
+    display: none;
+  }
+  .image-16 {
+    top: -132px;
+    right: -361px;
+  }
 }
 
 @media (max-width: 479px) {
-  .nav {
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-  .image-4 {
-    display: block;
-    margin-top: 0px;
-    margin-left: 0px;
-    float: left;
-  }
-  .image-5 {
-    width: 30px;
-    height: 44px;
-    margin-top: 24px;
-    margin-right: 24px;
-    float: right;
-  }
   .h1 {
     padding-right: 0px;
     padding-left: 0px;
@@ -675,15 +450,6 @@
     padding-right: 16px;
     padding-left: 16px;
   }
-  .hamburger {
-    margin-top: 24px;
-  }
-  .hamburger-icon {
-    padding-right: 0px;
-  }
-  .hamburger-label {
-    display: none;
-  }
   .footer-p-text {
     margin-top: 16px;
   }
@@ -696,10 +462,6 @@
   }
   .column-7 {
     display: none;
-  }
-  .image-10 {
-    top: 124px;
-    right: -206px;
   }
   .nav-link {
     margin: 64px auto;
@@ -715,6 +477,14 @@
     display: block;
     margin: auto;
     padding-top: 0px;
+    background-color: #333;
+  }
+  .image-13 {
+    display: none;
+  }
+  .image-16 {
+    top: 65px;
+    right: -183px;
   }
 }
 

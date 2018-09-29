@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<!--  This site was designed and coded by Anchor & Mast. http://www.anchorandmast.com  -->
-<!--  Last Published: Fri Sep 28 2018 15:37:50 GMT+0000 (UTC)  -->
+<!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Sat Sep 29 2018 16:09:47 GMT+0000 (UTC)  -->
 <html data-wf-page="5baa553596725bd8c43ee35d" data-wf-site="5baa553596725b66e63ee35c">
 <head>
   <meta charset="utf-8">
-  <title>BREW Coffee Bar, NC</title>
+  <title>brewcoffeebar</title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/brewcoffeebar.webflow.css" rel="stylesheet" type="text/css">
@@ -30,25 +31,26 @@
 </head>
 <body>
   <div id="hero-section" class="hero-section">
-    <div data-collapse="all" data-animation="default" data-duration="400" data-doc-height="1" data-no-scroll="1" class="navbar-2 w-nav">
+    <div data-collapse="medium" data-animation="default" data-duration="400" data-doc-height="1" class="navbar-2 w-nav">
       <div class="container-6 w-container"><a href="#" class="brand-2 w-nav-brand"></a>
-        <nav role="navigation" class="nav-menu w-nav-menu"><a href="#" class="nav-link w-nav-link">Locations</a><a href="#" class="nav-link w-nav-link">About Us</a><a href="#" class="nav-link w-nav-link">Careers</a></nav>
+        <nav role="navigation" class="nav-menu w-nav-menu"><a href="#hero-section" class="nav-link w-nav-link">Home</a><a href="#locations-section" class="nav-link w-nav-link">Locations</a><a href="#aboutus-section" class="nav-link w-nav-link">About Us</a><a href="#careers-section" class="nav-link w-nav-link">Careers</a></nav>
         <div class="menu-button w-nav-button">
           <div class="w-icon-nav-menu"></div>
         </div>
       </div>
     </div>
-    <div class="hero-imgs w-clearfix"><img src="images/Open_MacBookPro.png" class="image-9"><img src="images/BlueBook.png" class="image-11"><img src="images/WhiteCup_Full.png" srcset="images/WhiteCup_Full-p-500.png 500w, images/WhiteCup_Full.png 541w" sizes="(max-width: 541px) 100vw, 541px" class="image-10"></div>
+    <div class="hero-imgs"></div>
     <div class="container w-container">
       <h1 class="h1">Story Driven Coffee</h1>
       <div class="w-row">
         <div class="column-3 w-col w-col-6">
-          <p class="hero-copy">Connected by great coffee, excellent service, and zealous attention to detail, BREW desire is to highlight the stories that surround it. <br><br>From the farmer to the consumer each person in the chain of coffee has a story to tell and we want to be the platform that gives them their voice.</p><a class="button-primary button-hero w-button">Locations</a></div>
+          <p class="hero-copy">Connected by great coffee, excellent service, and zealous attention to detail, BREW desire is to highlight the stories that surround it. <br><br>From the farmer to the consumer each person in the chain of coffee has a story to tell and we want to be the platform that gives them their voice.</p><a href="#locations-section" class="button-primary button-hero w-button">Locations</a></div>
         <div class="column-4 w-col w-col-6"></div>
       </div>
     </div>
+    <div class="hero-images"><img src="images/WhiteCup_Full.png" srcset="images/WhiteCup_Full-p-500.png 500w, images/WhiteCup_Full.png 541w" sizes="(max-width: 541px) 100vw, 541px" class="image-16"><img src="images/BlueBook.png" class="image-15"><img src="images/Open_MacBookPro.png" class="image-14"></div>
   </div>
-  <div class="locations-section"><img src="images/coffee-plant-left.svg" class="image-12"><img src="images/coffee--plant-right.svg" class="image-13">
+  <div id="locations-section" class="locations-section"><img src="images/coffee-plant-left.svg" class="image-12"><img src="images/coffee--plant-right.svg" class="image-13">
     <div class="w-container">
       <h1 class="section-title">Locations</h1>
       <div class="w-row">
@@ -57,20 +59,20 @@
             <div class="location-info">
               <div class="location-title"><strong class="location-title">Downtown Raleigh</strong></div>
               <p class="p-text mt-16">The OG location. Stop by and grab a latte and relax or maybe fuel up with a quick espresso for a night downtown.</p>
-              <p class="p-text mt-16"><strong>M-F</strong> 7am-7pm / <strong>SAT </strong>8am-6pm / <strong>SUN</strong> 9am-5pm</p>
+              <p class="p-text mt-16"><strong>M-F</strong> 7am-7pm<br>‍<strong>SAT </strong>8am-6pm<br>‍<strong>SUN</strong> 9am-5pm</p>
               <p class="p-text mt-16"><strong>(919) 322-0470</strong></p>
-              <div class="location-actions w-clearfix"><a href="#" class="button-menu w-button"><strong class="button-label">Menu</strong></a><a href="#" class="button-directions w-button"><strong class="button-label">Directions</strong></a></div>
+              <div class="location-actions w-clearfix"><a href="#" class="button-menu w-button"><strong class="button-label">Menu</strong></a><a href="https://goo.gl/maps/4wdMz13gH822" target="_blank" class="button-directions w-button"><strong class="button-label">Directions</strong></a></div>
             </div>
           </div>
         </div>
         <div class="location-block w-col w-col-4">
           <div class="location-wrapper"><img src="images/cary-location-image.png" srcset="images/cary-location-image-p-500.png 500w, images/cary-location-image.png 600w" sizes="(max-width: 479px) 96vw, (max-width: 618px) 97vw, (max-width: 767px) 600px, (max-width: 991px) 229.328125px, 299.984375px" class="image-6">
             <div class="location-info">
-              <div class="location-title"><strong class="location-title">Downtown Raleigh</strong></div>
+              <div class="location-title"><strong class="location-title">Cary Theater</strong></div>
               <p class="p-text mt-16">Set right in the heart of growing downtown Cary you can come in and relax or get a snack before heading into a show.</p>
-              <p class="p-text mt-16"><strong>M-F</strong> 7am-7pm / <strong>SAT </strong>8am-6pm / <strong>SUN</strong> 9am-5pm</p>
+              <p class="p-text mt-16"><strong>M-F</strong> 7am-7pm<br>‍<strong>SAT </strong>8am-6pm<br>‍<strong>SUN</strong> 9am-5pm</p>
               <p class="p-text mt-16"><strong>(919) 377-1472</strong></p>
-              <div class="location-actions w-clearfix"><a href="#" class="button-menu w-button"><strong class="button-label">Menu</strong></a><a href="#" class="button-directions w-button"><strong class="button-label">Directions</strong></a></div>
+              <div class="location-actions w-clearfix"><a href="#" class="button-menu w-button"><strong class="button-label">Menu</strong></a><a href="https://goo.gl/maps/jT5i54FafSw" target="_blank" class="button-directions w-button"><strong class="button-label">Directions</strong></a></div>
             </div>
           </div>
         </div>
@@ -78,16 +80,17 @@
           <div class="location-wrapper"><img src="images/coming-soon-location-image.png" srcset="images/coming-soon-location-image-p-500.png 500w, images/coming-soon-location-image.png 600w" sizes="(max-width: 479px) 96vw, (max-width: 618px) 97vw, (max-width: 767px) 600px, (max-width: 991px) 229.328125px, 299.984375px" class="image-6">
             <div class="location-info">
               <div class="location-title"><strong class="location-title">Gateway Plaza</strong></div>
-              <p class="p-text mt-16">Sitting on the edge of amazing neighborhoods, BREW Gateway will be something totally new! Information coming soon!</p>
-              <p class="p-text mt-16"><strong>M-F</strong> 7am-7pm / <strong>SAT </strong>8am-6pm / <strong>SUN</strong> 9am-5pm<br>‍</p>
-              <div class="location-actions w-clearfix"><a href="#" class="button-menu w-button"><strong class="button-label">Menu</strong></a><a href="#" class="button-directions w-button"><strong class="button-label">Directions</strong></a></div>
+              <p class="p-text mt-16">Sitting on the edge of amazing neighborhoods, BREW Gateway will be something totally new! </p>
+              <p class="p-text mt-16"><strong>Store hours and information coming soon!<br>‍</strong></p>
+              <p class="p-text mt-16"><strong>(919) 322-0470</strong></p>
+              <div class="location-actions w-clearfix"><a href="#" class="button-menu w-button"><strong class="button-label">Menu</strong></a><a href="https://goo.gl/maps/tjJM1mt8qz72" target="_blank" class="button-directions w-button"><strong class="button-label">Directions</strong></a></div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="aboutus-section">
+  <div id="aboutus-section" class="aboutus-section">
     <div class="w-container">
       <h2 class="section-title">about us</h2>
       <div class="columns w-row">
@@ -103,13 +106,13 @@
       </div>
     </div>
   </div>
-  <div class="careers-section">
+  <div id="careers-section" class="careers-section">
     <div class="w-container">
       <h2 class="section-title">Careers</h2>
       <div class="w-row">
         <div class="w-clearfix w-col w-col-6">
           <h4 class="callout">We’re hiring!</h4>
-          <p class="p-text mt-16">Are you outgoing? Do you love to help people tell their story? Do you love coffee? If so apply for our Barista position!</p><a href="#" class="apply-cta w-button"><strong class="button-label">Apply Today</strong></a></div>
+          <p class="p-text mt-16">Are you outgoing? Do you love to help people tell their story? Do you love coffee? If so apply for our Barista position!</p><a href="https://airtable.com/shrp78yeh3oa2bss6" target="_blank" class="apply-cta w-button"><strong class="button-label">Apply Today</strong></a></div>
         <div class="column-2 w-col w-col-6"></div>
       </div>
     </div>
@@ -117,22 +120,22 @@
   <div class="footer-section">
     <div class="footer-container w-container">
       <div class="w-row">
-        <div class="branding-column w-col w-col-4"><img src="images/brew-logo-black.svg" class="brew-logo">
+        <div class="branding-column w-col w-col-4 w-col-tiny-6 w-col-small-6 w-col-medium-4"><img src="images/brew-logo-black.svg" class="brew-logo">
           <p class="footer-p-text">Copyright 2018  |  Brew Coffee Bar</p>
         </div>
-        <div class="column-5 w-col w-col-1"></div>
-        <div class="column-7 w-col w-col-1"></div>
-        <div class="bm-32 w-col w-col-2">
+        <div class="column-5 w-col w-col-1 w-col-tiny-6 w-col-small-6 w-col-medium-1"></div>
+        <div class="column-7 w-col w-col-1 w-col-tiny-6 w-col-small-6 w-col-medium-1"></div>
+        <div class="bm-32 w-col w-col-2 w-col-tiny-6 w-col-small-6 w-col-medium-2">
           <h5 class="footer-title">Downtown Raleigh</h5>
-          <p class="p-text mt-16">111 Seaboard Ave.Suite 116Raleigh, NC 27604<br><br><strong>(919) 322-0470</strong></p>
+          <p class="p-text mt-16">111 Seaboard Ave.<br>Suite 116 <br>Raleigh, NC 27604<br><br><strong>(919) 322-0470</strong></p>
         </div>
-        <div class="bm-32 w-col w-col-2">
-          <h5 class="footer-title">Downtown Raleigh</h5>
-          <p class="p-text mt-16">122 E. Chatham StCary, NC<br><br><strong>(919) 322-0470</strong></p>
+        <div class="bm-32 w-col w-col-2 w-col-tiny-6 w-col-small-6 w-col-medium-2">
+          <h5 class="footer-title">Cary Theater</h5>
+          <p class="p-text mt-16">122 E. Chatham St Cary, NC<br>‍<br><br><strong>(919) 377-1472</strong></p>
         </div>
-        <div class="bm-32 w-col w-col-2">
+        <div class="bm-32 w-col w-col-2 w-col-tiny-6 w-col-small-6 w-col-medium-2">
           <h5 class="footer-title">Gateway Plaza</h5>
-          <p class="p-text mt-16">2411 Crabtree Blvd, Raleigh, NC 27604<br>‍<br><strong>Coming Soon!</strong></p>
+          <p class="p-text mt-16">2411 Crabtree Blvd, Raleigh, NC 27604<br>‍<br><br><strong>(919) 322-0470</strong><br></p>
         </div>
       </div>
     </div>
