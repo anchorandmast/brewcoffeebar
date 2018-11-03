@@ -263,15 +263,6 @@
   color: #fff;
 }
 
-.brand-2 {
-  width: 140px;
-  height: 93px;
-  background-image: url('../images/logo_white.png');
-  background-position: 0px 0px;
-  background-size: 140px 93px;
-  background-repeat: no-repeat;
-}
-
 .nav-menu {
   left: 0px;
   top: 0px;
@@ -384,6 +375,11 @@
   cursor: pointer;
 }
 
+.brand {
+  width: 140px;
+  margin-left: 16px;
+}
+
 @media (max-width: 991px) {
   .p-text {
     margin-top: 0px;
@@ -488,9 +484,6 @@
   .nav-link {
     display: block;
   }
-  .brand-2 {
-    margin-left: 16px;
-  }
   .image-12 {
     display: none;
   }
@@ -556,10 +549,6 @@
     margin: 64px auto;
     padding: 0px;
     font-size: 32px;
-  }
-  .brand-2 {
-    margin-left: 16px;
-    padding-left: 0px;
   }
   .nav-menu {
     z-index: 200;
